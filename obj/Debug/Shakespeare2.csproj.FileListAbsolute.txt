@@ -1,0 +1,6 @@
+c:\users\bkilkenney\documents\visual studio 2015\Projects\Shakespeare2\Shakespeare2\bin\Debug\Shakespeare2.exe.config
+c:\users\bkilkenney\documents\visual studio 2015\Projects\Shakespeare2\Shakespeare2\bin\Debug\Shakespeare2.exe
+c:\users\bkilkenney\documents\visual studio 2015\Projects\Shakespeare2\Shakespeare2\bin\Debug\Shakespeare2.pdb
+c:\users\bkilkenney\documents\visual studio 2015\Projects\Shakespeare2\Shakespeare2\obj\Debug\Shakespeare2.csprojResolveAssemblyReference.cache
+c:\users\bkilkenney\documents\visual studio 2015\Projects\Shakespeare2\Shakespeare2\obj\Debug\Shakespeare2.exe
+c:\users\bkilkenney\documents\visual studio 2015\Projects\Shakespeare2\Shakespeare2\obj\Debug\Shakespeare2.pdb
