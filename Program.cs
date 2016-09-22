@@ -45,19 +45,14 @@ namespace Shakespeare2
 
             // Read first line from the text file
             string line = reader.ReadLine();
-            string result = line.Replace("a", "A");
-            string result2 = line.Replace("e", "E");
-            string result3 = line.Replace("i", "I");
-            string result4 = line.Replace("o", "U");
-            string result5 = line.Replace("u", "U");
+            string result = line.Replace("a", "A").Replace("e", "E").Replace("i", "I").Replace("o", "O").Replace("u", "U");
+            
 
 
-            Console.WriteLine(result, result2, result3, result4, result5);
 
+            Console.WriteLine(result);
 
-            //Everything above this point will print the first line*******************************
-
-            //Read the other lines from the text file
+            
             while (line != null)
             {
                 lineNumber++;
