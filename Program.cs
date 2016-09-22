@@ -43,27 +43,25 @@ namespace Shakespeare2
 
             int lineNumber = 0;
 
-            // Read first line from the text file
-            string line = reader.ReadLine();
+            string line = reader.ReadToEnd();
             string result = line.Replace("a", "A").Replace("e", "E").Replace("i", "I").Replace("o", "O").Replace("u", "U");
-            
-
-
 
             Console.WriteLine(result);
 
-            
-            while (line != null)
+
+            while (line != null)  //space between paragraphs are not null
             {
                 lineNumber++;
-                Console.WriteLine("Line {0}: {1}", lineNumber, line);
+                result = line.Replace("a", "A").Replace("e", "E").Replace("i", "I").Replace("o", "O").Replace("u", "U");
+                Console.WriteLine("Line {0}: {1}", lineNumber, result);
+
+//Above line same as WL("Line " + lineNumber + ": " + result);
+
                 line = reader.ReadLine();
             }
 
-            // Close the resource after you've finished using it
+            // Close txt file after you're finished using it
             reader.Close();
-
-
         }
     }
 }
